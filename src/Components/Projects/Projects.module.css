@@ -1,0 +1,30 @@
+.Projects{
+    width: 80%;
+    display: flex;
+    margin-left:130px;
+    margin-right:190px;
+    margin-top:20px;
+    flex-flow: row;
+}
+
+.heading{
+    color:tomato;
+    margin-left: 8%;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+@media(max-width:500px){
+    .Projects{
+        flex-flow:column;
+        margin-left:45px;
+    }
+    .heading{
+        margin-top:480px;
+        font-size: 45px;
+        margin-left:35%;
+    }
+    .Container{
+        margin-top:2170px;
+    }
+}
