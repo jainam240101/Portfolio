@@ -30,7 +30,7 @@ const MainBlock=(props)=>(
                   targets: "#Box2",
                   keyframes:[
                       {
-                          translateX:-1000
+                          translateX:-1500
                       },
                       {
                           translateX:50
@@ -41,7 +41,7 @@ const MainBlock=(props)=>(
                 }
               ]}   
         >
-         <div id="Box2" className={classes.Tag}>I love Coding,Music,Cinematography.</div> 
+         <div id="Box2" className={classes.Tag}>I turn Coffee and Music into efficient Code.</div> 
         </Anime>
     </div>
 )

@@ -1,0 +1,25 @@
+.copyrights{
+    background-color: #576574;
+    height:80px;
+    justify-content: center;
+}
+
+.text{
+    font-size:18px;
+    color: white;
+    padding-top:30px;
+    margin-left: 500px;
+}
+
+.mail{
+    color:#1dd1a1; 
+}
+
+@media(max-width:500px){
+    .copyrights{
+        display: none;
+    }
+    .text{
+        display: none;
+    }
+}

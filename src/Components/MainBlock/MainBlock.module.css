@@ -1,42 +1,58 @@
 .MainBlock{
-    height:100vh;
+    height:104vh;
     width: 100%;
     background-image: url('../../Assets/background1.jpg');
     background-attachment: fixed ;
-    margin-top:-60px;
+    background-size: cover;
+    margin-top:-560px;
+    overflow-y:hidden;
+    overflow-x: hidden;
+    z-index: 1;
     background-repeat: no-repeat;
     background-size:100% 100%;
     
 }
 
 .Title{
-    color: white;
+    color: #ff5e57;
     display:flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size:60px;
-    font-family: 'Roboto Mono', monospace;
-    padding-top: 150px;
+    font-family: 'Sacramento', cursive;
+    padding-top: 90px;
     /* padding-left:147px; */
-    /* position: relative; */
 
 }
 
-.Tag{
-    color:white;
+.icon{
+    padding-top: 100px;
+    height:100px;
+    width: 100px;
+    animation: move 5s infinite;
+}
+
+.Tag{                 
+    text-shadow: 5px 8px solid black;      
+    font-family: 'Croissant One', cursive;   
+    color:#1B9CFC;
     font-size:35px;
     display: flex;
-    margin-left: 400px;
+    margin-left: 370px;
     margin-top:50px;
 }
 
 @media(max-width:700px){
     .Title{
-        padding-left: 70px;
+        padding-left: 20px;
+        margin-top:120px;
     }
     .Tag{
-        padding-left:57px;
+        padding-left:17px;
         margin-left:0;
+    }
+    .MainBlock{
+        background-size: 100% 52%;
     }
 }

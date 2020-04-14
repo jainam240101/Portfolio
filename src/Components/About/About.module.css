@@ -1,7 +1,9 @@
 .About{
-    height: 80vh;
+    height: 83vh;
     width:90%;
+    margin-top:-30px;
     background-attachment: fixed;
+    overflow-y:hidden;
     /* background-color: white; */
 }
 
@@ -26,7 +28,7 @@
     margin-left: 35px;
     margin-right: 35px;
     color:white;
-    font-weight:15px;
+    font-size:17px;
 }
 
 .btn{
@@ -53,11 +55,24 @@
 }
 
 @media(max-width:500px){
+    .About{
+        height: 2200px;
+        overflow-x: hidden;
+        width:100%;
+    }
+    .Container{
+        height:2600px;
+        flex-flow: column;
+        overflow-x: hidden;
+    }
     .Heading{
-        margin-left:10%;
-        font-size:45px;
+        margin-left:30%;
+        font-size:65px;
     }
     .Para{
         font-size:37px;
+        display: inline-block;
+        margin-left: 4px;
+        width:100%;
     }
 }

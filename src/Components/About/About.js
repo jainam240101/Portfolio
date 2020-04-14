@@ -11,7 +11,17 @@ class About extends Component{
             <div className={classes.Container}>
                 <div id="About" className={classes.About}>
                     <h3 className={classes.Heading}>About Me</h3>
-                    <p className={classes.Para}>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    <p className={classes.Para}>I am a self taught coder and when it comes to Coding I start syncing my hands and brain to write efficient code.
+                                                I started my coding journey from 10th Std and I was really fascinated to see things in action,Thrilled with excitment I started different
+                                                languages and increasing my Coding Skills.<br/><br/>Technology has always fascinated me so I have a goal of never stop learning cause everyday 
+                                                new things come into Open Source Market.I have a goal of developing new things that just takes out the burden of doing unimportant things.
+                                                I always have liked creating algorithms and thats why I try to work as a Backend Engineer and creating REST APIs, handling databases,etc.
+                                                Later I started my journey of a Full Stack Developer by learning React and was fascinated by all the features it has.
+                                                <br/>  
+                                                I believe in working out of my comfort zone and trying new things cause I have a explorers' mindset. I am very adaptive to new technologies
+                                                cause its my passion to explre new technologies. When it comes to work I put all my dedication towards it and build new things even if I have to stay
+                                                up night and day to build it.
+                                                </p>
                     <button className={classes.btn}
                             onMouseEnter={()=>{this.setState({skills:true})}}
                             onMouseLeave={()=>{this.setState({skills:false})}}>Technical Skills</button>
