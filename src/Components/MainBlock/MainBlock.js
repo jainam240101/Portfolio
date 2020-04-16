@@ -22,7 +22,7 @@ const MainBlock=(props)=>(
                 }
               ]}   
         >
-            <div id="Box" className={classes.Title}>Hey I Am Jainam Mehta</div>
+            <div id="Box" className={classes.Title}>Hey I'm Jainam Mehta</div>
         </Anime>
         <Anime
             initial={[

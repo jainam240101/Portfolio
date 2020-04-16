@@ -14,7 +14,7 @@
     font-size: 55px;
 }
 
-@media(max-width:500px){
+@media(max-width:800px){
     .Projects{
         flex-flow:column;
         margin-left:45px;
@@ -26,5 +26,7 @@
     }
     .Container{
         margin-top:-655px;
+        flex-flow:column;
+        height: 400vh;
     }
 }
