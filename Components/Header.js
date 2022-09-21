@@ -15,53 +15,59 @@ const Header = () => {
     setsidedrawer(!sidedrawer);
   };
   return (
-    <div className='text-white relative flex justify-between py-5 lg:px-36'>
-      <div className='opacity-20 absolute -left-36 -top-24'>
+    <div className="text-white relative flex justify-between py-5 lg:px-36">
+      <div className="opacity-20 absolute -left-36 -top-24">
         <Circle />
       </div>
-      <div className='bg-yellow-100 font-Comfortaa h-11 px-4 ml-10 lg:ml-0 lg:px-0  text-black lg:w-12 lg:h-12 text-center pt-1 rounded-full font-bold text-3xl '>
+      <div className="bg-yellow-100 font-Comfortaa h-11 px-4 ml-10 lg:ml-0 lg:px-0  text-black lg:w-12 lg:h-12 text-center pt-1 rounded-full font-bold text-3xl ">
         j
       </div>
       <div
         onClick={sideDrawerHandler}
-        className='visible lg:hidden absolute top-8 right-10'>
-        <div className='w-12 mb-2 h-1 bg-white rounded-full'></div>
-        <div className='w-12 mb-2 h-1 bg-white rounded-full'></div>
-        <div className='w-12 mb-2 h-1 bg-white rounded-full'></div>
+        className="visible lg:hidden absolute top-8 right-10"
+      >
+        <div className="w-12 mb-2 h-1 bg-white rounded-full"></div>
+        <div className="w-12 mb-2 h-1 bg-white rounded-full"></div>
+        <div className="w-12 mb-2 h-1 bg-white rounded-full"></div>
       </div>
       <Scrollspy items={["about", "experience", "projects", "blog", "contact"]}>
-        <ul className='lg:visible invisible font-sans flex py-3 text-lg'>
+        <ul className="lg:visible invisible font-sans flex py-3 text-lg">
           <li
             onClick={() => handleImageClick("about")}
-            className='cursor-pointer hover:text-yellow-100 '>
+            className="cursor-pointer hover:text-yellow-100 "
+          >
             ABOUT
           </li>
-          <span className='cursor-pointer hover:text-yellow-100 px-1'>/</span>
+          <span className="cursor-pointer hover:text-yellow-100 px-1">/</span>
           <li
             onClick={() => handleImageClick("experience")}
-            className='cursor-pointer hover:text-yellow-100 pl-2'>
+            className="cursor-pointer hover:text-yellow-100 pl-2"
+          >
             EXPERIENCE
           </li>
-          <span className='cursor-pointer hover:text-yellow-100 px-1'>/</span>
+          <span className="cursor-pointer hover:text-yellow-100 px-1">/</span>
           <li
             onClick={() => handleImageClick("projects")}
-            className='cursor-pointer hover:text-yellow-100 pl-2'>
+            className="cursor-pointer hover:text-yellow-100 pl-2"
+          >
             PROJECTS{" "}
           </li>
-          
-          <span className='cursor-pointer hover:text-yellow-100 px-1'>/</span>
+
+          <span className="cursor-pointer hover:text-yellow-100 px-1">/</span>
           <li
             onClick={() => handleImageClick("contact")}
-            className='cursor-pointer hover:text-yellow-100 pl-2'>
+            className="cursor-pointer hover:text-yellow-100 pl-2"
+          >
             CONTACT
           </li>
         </ul>
       </Scrollspy>
       <a
         target="_blank"
-        href='https://docs.google.com/document/d/1iJaD6VaGs1zdcGeZOHjw6CJqaV8sgyLJP61LQBAVh9c/edit?usp=sharing'
-        rel='noreferrer'
-        className='invisible lg:visible my-3 font-Comfortaa font-bold cursor-pointer text-lg hover:text-yellow-100'>
+        href="https://drive.google.com/file/d/1XiAF0d5WYsEqFa1OTHnDomFQLINoprUB/view?usp=sharing"
+        rel="noreferrer"
+        className="invisible lg:visible my-3 font-Comfortaa font-bold cursor-pointer text-lg hover:text-yellow-100"
+      >
         CV
       </a>
       {sidedrawer && (
