@@ -64,7 +64,7 @@ const Header = () => {
       </Scrollspy>
       <a
         target="_blank"
-        href="https://drive.google.com/file/d/1vmEWZt16MJggC4LzPGi-2PTH2c_hfXak/view?usp=sharing"
+        href="https://drive.google.com/file/d/1zwbUeLPKR0dF-4_W8oWm9WNb0r0DqodB/view?usp=sharing"
         rel="noreferrer"
         className="invisible lg:visible my-3 font-Comfortaa font-bold cursor-pointer text-lg hover:text-yellow-100"
       >
