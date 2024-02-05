@@ -1,36 +1,37 @@
 /** @format */
 
 export const Data = {
-  Sensho: {
-    Duration: "April 2022 - Aug 2022",
+  "Software Engineering Intern | CircleBlack, Boston, MA ": {
+    Duration: "May 2023 - Dec 2023",
     points: [
-      "Designed APIs for analytics on admin panel and integrated Stripe payment processing platform",
-      "Remodeled monolithic architecture to microservice architecture to scale services",
-      "Standardized asynchronous communication between microservices using RabbitMQ reducing response time by 50ms",
-      "Implemented NextJS to work on client projects for VS Club and Brahmand",
+      "Implemented microservices for CRMs, transactions, and security, for horizontal scaling and reducing infrastructure costs by 30%.",
+      "Collaborated with SDET team to orchestrate end-to-end automation tests leveraging Mocha to reduce production errors by 30%.",
+      "Enhanced query speed by 15% through sharding the database into MySQL instances and employing Liquibase for migration and versioning. Seamlessly integrated Wealthcare with Redtail CRM and Salesforce SFS for advanced risk analysis",
+      "Containerized integration services via Docker, set up a Bitbucket CI/CD pipeline for deployment on AWS ECS, and implemented Auto Scaling policy with capacity providers for high availability, resulting in a 10% reduction in downtime.",
     ],
   },
-  "Haasyl Technologies": {
-    Duration: "July 2021 - March 2022",
+  "Software Engineering Intern | Augmint, Dubai": {
+    Duration: "Feb 2022 - Aug 2022",
     points: [
-      "Developed eKYC and eNach flow for validation of users on RBI (Reserve Bank of India) platform to get their microloans sanctioned",
-      "Integrated Easebuzz, a payment gateway to automate money transfers using cron jobs and removing manual dependency by 90%",
-      "Programmed robust transaction APIs that handled more than 10,000 transactions managing around 17 lakhs INR (21,300 USD approximately)",
-      "Engineered APIs for Admin Panel to track users’ transactions, manage fraudulent transactions and default payment flow",
+      "Architected primary database in MongoDB and implemented REST APIs using NodeJS with a hexagonal microservices architecture, achieving a response time of 50ms. Integrated RabbitMQ for asynchronous processing of 1000+ transactions requests/minute.",
+      "Developed a component library utilizing ReactJS, StoryBook, and SASS leading to a 30% reduction in development time.",
+      "Engineered Jest unit tests for component testing, resulting in a 25% reduction in runtime errors. Implemented a CI/CD pipeline usingGitHub Actions for seamless deployment across development, staging, and production environments on AWS Amplify.",
     ],
   },
-  "Uraan Softskills": {
+  "Software Engineering Intern | Haasyl Technologies, Mumbai, India": {
+    Duration: "July 2021 - Feb 2022",
+    points: [
+      "Revamped the web app user interface to make it smooth using ReactJS, SASS, and Redux to increase user growth by 20%.",
+      "Developed role-specific admin panels and transaction APIs with NodeJS and GraphQL, facilitating $21,300 in loan transactions through seamless integration with Stripe. Utilized MySQL transactions to process secure database commits and rollbacks.",
+      "Implemented a streamlined Jenkins CI/CD pipeline, automating testing and deployment on AWS EC2 instances. Increased render speed by 30% through the usage of AWS S3 for static web page deployment.",
+    ],
+  },
+  "Uraan Softskill | India": {
     Duration: "April 2021 - June 2021",
     points: [
-      "Collaborated with the designing team to revamp Learnreel, an eLearning web application using ReactJS and Redux to improve the page reload speed by 100ms",
-      "Built APIs using NodeJS for JWT authentication and flow to upload videos and courses to AWS S3",
-    ],
-  },
-  "Developer Student Clubs": {
-    Duration: "Jan 2021 - April 2021",
-    points: [
-      "Irident Inc. is an AI startup that does investment management to generate alpha in market sectors.",
-      "Applied Deep Learning technologies in Investment Management to outperform the benchmark on a risk-adjusted basis while identifying new alpha drivers. (Benchmark: Russel 1000 Index)",
+      "Developed a ReactJS and SASS powered component library to minimize development time by 30% across other projects",
+      "Created staging and production servers on AWS EC2 and configured Nginx to evenly distribute traffic and handle high loads",
+      "Revamped Learnreels web app with ReactJS and Redux, achieving 100ms boost in response time to improve user experience",
     ],
   },
 };
