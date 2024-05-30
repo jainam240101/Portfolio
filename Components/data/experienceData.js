@@ -1,37 +1,42 @@
 /** @format */
 
 export const Data = {
-  "Software Engineering Intern | CircleBlack, Boston, MA ": {
+  "Software Engineering Co-Op | CircleBlack, Boston, MA ": {
     Duration: "May 2023 - Dec 2023",
     points: [
-      "Implemented microservices for CRMs, transactions, and security, for horizontal scaling and reducing infrastructure costs by 30%.",
-      "Collaborated with SDET team to orchestrate end-to-end automation tests leveraging Mocha to reduce production errors by 30%.",
-      "Enhanced query speed by 15% through sharding the database into MySQL instances and employing Liquibase for migration and versioning. Seamlessly integrated Wealthcare with Redtail CRM and Salesforce SFS for advanced risk analysis",
-      "Containerized integration services via Docker, set up a Bitbucket CI/CD pipeline for deployment on AWS ECS, and implemented Auto Scaling policy with capacity providers for high availability, resulting in a 10% reduction in downtime.",
+      "Developed benchmarking algorithms using NodeJS and GoLang for daily portfolio analysis, by creating custom market scenarios to calculate risk scores, improving efficiency by 26%.",
+      "Engineered batch automation with GoLang to load over 100k+ transactions of 10k+ accounts from RBC and Fidelity custodians into MySQL shards, Redtail, and Salesforce CRM via Redis Queues.",
+      "Created microservices for financial advisors and investors to access real-time data on transactions, accounts, and portfolio performance.",
+      "Implemented comprehensive logging and metrics for services using the ELK stack (Elasticsearch, Logstash, Kibana).",
+      "Managed AWS infrastructure with Terraform and automated UAT and QA deployments using a Bitbucket CI/CD pipeline, deploying Docker images to ECR and orchestrating on EKS.",
+      "Tech Stack: NodeJS, Go, MySQL, ReactJS, AWS, Docker, Kubernetes, Linux, Redis",
     ],
   },
-  "Software Engineering Intern | Augmint, Dubai": {
+  "Software Engineering | Sensho, Dubai": {
     Duration: "Feb 2022 - Aug 2022",
     points: [
-      "Architected primary database in MongoDB and implemented REST APIs using NodeJS with a hexagonal microservices architecture, achieving a response time of 50ms. Integrated RabbitMQ for asynchronous processing of 1000+ transactions requests/minute.",
-      "Developed a component library utilizing ReactJS, StoryBook, and SASS leading to a 30% reduction in development time.",
-      "Engineered Jest unit tests for component testing, resulting in a 25% reduction in runtime errors. Implemented a CI/CD pipeline usingGitHub Actions for seamless deployment across development, staging, and production environments on AWS Amplify.",
+      "Engineered Supertribe, a web3 creators platform, to mint NFTs and POAPs using Django, Postgres, and Kafka with Solana blockchain.",
+      "Architected smooth user interface using ReactJS, EthersJS and SASS with server-side loading and SWR for optimizing response time to 100ms.",
+      "Developed instance templates using Packer to reduce start time by 35% and managed infrastructure on GCP through Terraform cloud.",
+      "Optimized Jenkins CI/CD pipeline to automate deployment by running integration tests, building packer images, deploying to instance groups on GCP, and managing traffic using load balancer. ",
+      "Tech Stack: Django, MongoDB, Kafka, Postgres, Terraform, GCP, ReactJS",
     ],
   },
-  "Software Engineering Intern | Haasyl Technologies, Mumbai, India": {
+  "Software Engineering | Haasyl Technologies, Mumbai, India": {
     Duration: "July 2021 - Feb 2022",
     points: [
-      "Revamped the web app user interface to make it smooth using ReactJS, SASS, and Redux to increase user growth by 20%.",
-      "Developed role-specific admin panels and transaction APIs with NodeJS and GraphQL, facilitating $21,300 in loan transactions through seamless integration with Stripe. Utilized MySQL transactions to process secure database commits and rollbacks.",
-      "Implemented a streamlined Jenkins CI/CD pipeline, automating testing and deployment on AWS EC2 instances. Increased render speed by 30% through the usage of AWS S3 for static web page deployment.",
+      "Implemented admin panel and transaction GraphQL APIs using TypeScript, Apollo, and MySQL, facilitating over $25,000 in loan payments through Eazebuzz. Scheduled CRON jobs on AWS Lambda for automatic debits to maintain a default rate below 10%.",
+      "Collaborated with the SDET team to orchestrate integration and unit tests using Mocha and Jest to reduce production errors by 25%.",
+      "Developed a cross-platform mobile application for iOS and Android using React Native and Expo, enhancing user accessibility and engagement.",
+      "Deployed the infrastructure by containerizing services using Docker, pushing images into ECR to host them on AWS ECS with Fargate, and using ALB to expose the services to the internet.",
+      "Tech Stack: TypeScript, Mocha, Jest, MySQL, MongoDB, React Native, ReactJS, Redux, AWS",
     ],
   },
   "Uraan Softskill | India": {
     Duration: "April 2021 - June 2021",
     points: [
-      "Developed a ReactJS and SASS powered component library to minimize development time by 30% across other projects",
-      "Created staging and production servers on AWS EC2 and configured Nginx to evenly distribute traffic and handle high loads",
-      "Revamped Learnreels web app with ReactJS and Redux, achieving 100ms boost in response time to improve user experience",
+      "Revamped LearnReel, using NextJS, Tailwind CSS, and Redux, incorporating server side with lazy loading to achieve a 150ms response time and handling assets using AWS S3.",
+      "Tech Stack: NextJS, Redux, Tailwind CSS, AWS- Revamped LearnReel, using NextJS, Tailwind CSS, and Redux, incorporating server side with lazy loading to achieve a 150ms response time and handling assets using AWS S3. Tech Stack: NextJS, Redux, Tailwind CSS, AWS",
     ],
   },
 };
